@@ -1,0 +1,60 @@
+ .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 25px 150px;
+  }
+  
+  .navbar-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+  }
+  
+  .navbar-right {
+    display: flex;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  
+  .nav-links li {
+    margin-left: 60px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #333;
+    position: relative;
+    display: inline-block; /* Added display property */
+    width: 60px; /* Adjust the width to your desired value */
+    text-align: center; /* Optional: Center align the link text */
+  }
+
+  .nav-links a:hover {
+  font-weight: 600;
+  }
+
+  .nav-links a:hover::after {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: -2px;
+  left: 2px;
+  width: 15px;
+  height: 2px;
+  background-color: #333;
+  }
+  

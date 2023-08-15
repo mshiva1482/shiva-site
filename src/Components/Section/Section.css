@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 50px 0px 50px 0px;
+  }
+  
+  .image-container {
+    flex: 1;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+    margin-right: 50px;
+  }
+  
+  .text-container {
+    flex: 2;
+    text-align: left;
+  }
+  
+  .text-container h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .text-container p {
+    font-size: 16px;
+    line-height: 1.5;
+    max-width: 85%;
+  }
+
+  .text-container a {
+    text-decoration: none;
+    color: #6C63FF;
+  }
+  

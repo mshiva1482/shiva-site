@@ -1,0 +1,45 @@
+.contact-container {
+    padding-left: 150px;
+    display: flex;
+    background: white;
+    color: black;
+    align-items: center;
+  }
+  
+  .contact-left {
+    flex: 1;
+    text-align: left;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 2em;
+  }
+
+  .contact-left .p {
+    margin-right: 20%;
+    font-family: 'poppins';
+    font-size: 40px;
+  }
+  
+  .contact-right {
+    flex: 1;
+    margin-left: 20px;
+    padding: 80px;
+  }
+  
+  .contact-right form label {
+    display: flex;
+    margin-bottom: 10px;
+    align-items:center;
+    justify-content: center;
+
+  }
+  
+  .contact-right form input,
+  .contact-right form textarea {
+    width: 60%;
+    padding: 8px;
+  }
+  
+  .contact-right form button {
+    padding: 8px 16px;
+  }
+  
