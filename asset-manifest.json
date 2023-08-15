@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/shiva-site/static/css/main.cb28ebfb.css",
+    "main.js": "/shiva-site/static/js/main.c2fb5d96.js",
+    "static/media/certification-badge.png": "/shiva-site/static/media/certification-badge.5e5d1551f5543c11bd7d.png",
+    "static/media/programmer.svg": "/shiva-site/static/media/programmer.e7fd0478451b8d72ff9b93b1ea475b66.svg",
+    "static/media/exoplanetProject.svg": "/shiva-site/static/media/exoplanetProject.4670858166f244c581b078f3f45d3a23.svg",
+    "static/media/cctv.svg": "/shiva-site/static/media/cctv.a25f19b3738309b8837e5a35d878abfd.svg",
+    "index.html": "/shiva-site/index.html",
+    "main.cb28ebfb.css.map": "/shiva-site/static/css/main.cb28ebfb.css.map",
+    "main.c2fb5d96.js.map": "/shiva-site/static/js/main.c2fb5d96.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cb28ebfb.css",
+    "static/js/main.c2fb5d96.js"
+  ]
+}
